@@ -309,6 +309,12 @@ h3 {
     display: none;
 }
 
+footer p {
+    margin: 0 auto;
+    max-width: 90%;
+    text-align: center;
+}
+
 @media (max-width: 768px) {
     #disclaimer {
         display: block;
