@@ -357,7 +357,7 @@ footer p {
     justify-content: center;
     }
 
-    #accept:hover {
+    #accept:hover { /*try 2 */
         background-color: rgb(36, 131, 123);
         transform: scale(1.05);
     }
