@@ -1,0 +1,349 @@
+h1 {
+    color: whitesmoke;
+    font-family: arial, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgb(15, 29, 21);
+    padding: 20px;
+}
+
+body {
+    background-color: rgb(25, 46, 34);
+    padding-bottom: 250px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.item-card {
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: auto;
+    flex-direction: column;
+    /* background-color: rgb(120, 110, 150); */
+    margin: 10px;
+    transition: 0.3s ease-in-out;
+    background-size: cover;
+    max-width: 300px;
+    min-width: 250px;
+}
+
+.other {
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: auto;
+    flex-direction: column;
+    /* background-color: rgb(120, 110, 150); */
+    margin: 10px;
+    transition: 0.3s ease-in-out;
+    background-size: cover;
+    max-width: 300px;
+    min-width: 250px;
+}
+
+.one {
+    background-image: url("images/standMixer.png");
+    background-position: center;
+    background-color: rgba(84, 148, 127, 0.87);
+    background-blend-mode: multiply;
+}
+
+.two {
+    background-image: url("images/SimpliSafeCam.png");
+    background-position: center;
+    background-color: rgba(84, 148, 127, 0.87);
+    background-blend-mode: multiply;
+}
+
+.three {
+    background-image: url("images/dogBed.png");
+    background-position: center;
+    background-color: rgba(84, 148, 127, 0.87);
+    background-blend-mode: multiply;
+}
+
+.four {
+    background-image: url("images/hdd.png");
+    background-position: center;
+    background-color: rgba(84, 148, 127, 0.87);
+    background-blend-mode: multiply;
+    background-size: 150%;
+}
+
+.five {
+    background-image: url("images/harnessAttachment.png");
+    background-position: center;
+    background-color: rgba(84, 148, 127, 0.87);
+    background-blend-mode: multiply;
+}
+
+.six {
+    background-image: url("images/teaPot.png");
+    background-position: center;
+    background-color: rgba(84, 148, 127, 0.87);
+    background-blend-mode: multiply;
+}
+
+.option1 {
+    background-image: url("images/teaDiffuser.png");
+    background-position: center;
+    background-color: rgba(84, 148, 127, 0.87);
+    background-blend-mode: multiply;
+}
+
+.option2 {
+    background-image: url("images/sushiPlate.png");
+    background-position: center;
+    background-color: rgba(84, 148, 127, 0.87);
+    background-blend-mode: multiply;
+}
+
+.option3 {
+    background-image: url("images/teaPet.png");
+    background-position: center;
+    background-color: rgba(84, 148, 127, 0.87);
+    background-blend-mode: multiply;
+}
+
+.option4 {
+    background-image: url("images/TSCO.png");
+    background-position: center;
+    background-color: rgba(84, 148, 127, 0.87);
+    background-blend-mode: multiply;
+}
+
+.option5 {
+    background-image: url("images/chewy.png");
+    background-position: center;
+    background-color: rgba(84, 148, 127, 0.87);
+    background-blend-mode: multiply;
+}
+
+.option6 {
+    background-image: url("images/H&STea.png");
+    background-position: center;
+    background-color: rgba(84, 148, 127, 0.87);
+    background-blend-mode: multiply;
+}
+
+.option7 {
+    background-image: url("images/whiteTea.png");
+    background-position: center;
+    background-color: rgba(84, 148, 127, 0.87);
+    background-blend-mode: multiply;
+}
+
+.option8 {
+    background-image: url("images/mixingBowls.png");
+    background-position: center;
+    background-color: rgba(84, 148, 127, 0.87);
+    background-blend-mode: multiply;
+}
+
+.option9 {
+    background-image: url("images/spiceRack.png");
+    background-position: center;
+    background-color: rgba(84, 148, 127, 0.87);
+    background-blend-mode: multiply;
+}
+
+.item-card:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    display: flex;
+    font-family: arial, sans-serif;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(245, 245, 245, 0.678);
+    text-align: center;
+    color: black;
+}
+
+.description-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(245, 245, 245, 0.678);
+    margin: 10px;
+    border-radius: 5px;
+}
+
+p {
+    margin: 10px;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.description {
+    font-family: arial, sans-serif;
+    font-size: 1rem;
+    padding: 20px;
+    text-align: center;
+}
+
+.specs {
+    font-family: arial, sans-serif;
+    font-size: 0.9rem;
+}
+
+.link {
+    background-color: rgb(23, 83, 58);
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.link:hover {
+    background-color: rgb(36, 131, 123);
+    transform: scale(1.05);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.price {
+    font-size: 2rem;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    color: rgb(8, 70, 60);
+}
+
+.other {
+    background-color: rgb(23, 83, 58);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    font-size: 1.5rem;
+    transition: 0.3s ease-in-out;
+}
+
+.other:hover {
+    background-color: rgb(36, 131, 123);
+    transform: scale(1.05);
+}
+
+.specs {
+    color: black;
+}
+
+.description {
+    color: black;
+}
+
+.back {
+    background-color: rgb(23, 83, 58);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px auto;
+    color: white;
+    font-size: 1.5rem;
+    transition: 0.3s ease-in-out;
+    display: block;
+    width: 50%;
+    justify-content: center;
+}
+
+.back:hover {
+    background-color: rgb(36, 131, 123);
+    transform: scale(1.05);
+}   
+
+footer {
+    background-color: rgba(183, 207, 183, 0.884);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+#disclaimer {
+    font-family: arial, sans-serif;
+    font-size: 0.9rem;
+}
+
+.disclaimer {
+    font-size: 1.4rem;
+}
+
+.copywrite {
+    font-family: arial, sans-serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: arial, sans-serif;
+    font-size: 1.5rem;
+}
+
+#accept {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    #disclaimer {
+        display: block;
+        width: 100%;
+        height: 80%;
+        padding: 10px;
+        position: fixed;
+        font-family: arial, sans-serif;
+        font-size: 0.6rem;
+    }
+
+    .disclaimer {
+        font-size: 1rem;
+    }
+
+    .copywrite {
+        font-family: arial, sans-serif;
+        font-size: 0.9rem;
+    }
+
+    h3 {
+        font-family: arial, sans-serif;
+        font-size: 1.5rem;
+    }
+
+    #accept {
+        background-color: rgb(23, 83, 58);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px auto;
+    color: white;
+    font-size: 1.5rem;
+    transition: 0.3s ease-in-out;
+    display: block;
+    width: 30%;
+    justify-content: center;
+    }
+
+    #accept:hover {
+        background-color: rgb(36, 131, 123);
+        transform: scale(1.05);
+    }
+}
