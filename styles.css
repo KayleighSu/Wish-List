@@ -272,17 +272,20 @@ a {
 
 footer {
     position: fixed;
-    background-color: rgba(183, 207, 183, 0.884);
     left: 0;
     bottom: 0;
     width: 100%;
+    background-color: rgba(183, 207, 183, 0.884);
     text-align: center;
     margin: 0;
     padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center; 
+    box-sizing: border-box;
 }
+
 
 #disclaimer {
     font-family: arial, sans-serif;
@@ -319,7 +322,7 @@ footer p {
     #disclaimer {
         display: block;
         width: 100%;
-        height: 80%;
+        height: auto;
         padding: 10px;
         position: fixed;
         font-family: arial, sans-serif;
