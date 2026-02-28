@@ -76,7 +76,7 @@ main {
 }
 
 .four {
-    background-image: url("images/hdd.png");
+    background-image: url("images/HDD.png");
     background-position: center;
     background-color: rgba(84, 148, 127, 0.87);
     background-blend-mode: multiply;
