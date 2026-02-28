@@ -321,7 +321,6 @@ footer p {
 @media (max-width: 768px) {
     #disclaimer {
         display: block;
-        width: 100%;
         height: auto;
         padding: 10px;
         position: fixed;
