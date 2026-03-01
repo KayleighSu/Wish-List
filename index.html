@@ -8,7 +8,20 @@
 </head>
 
 <body>
-    <h1>Birthday Wish List</h1>
+  <header>
+    <div class="logo"><img id="logo" src="images/logo.png" alt="Logo"></div>
+    <div class="header-content"><h1>Birthday Wish List</h1></div>
+    <div class="hamburger" onclick="toggleNav()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="nav-links">
+        <button class="nav-link"><a href="index.html">Home</a></button>
+        <button class="nav-link"><a href="otherIdeas.html">Other Ideas</a></button>
+        <button class="nav-link"><a href="contact.html">Contact</a></button>
+    </div>
+</header>
     
 <main>
     <div class="item-card one">
@@ -72,10 +85,21 @@
         <button class="link"><a href="https://yunnansourcing.com/collections/teapots-glazed-ceramic-porcelain-and-glass/products/jian-shui-clay-yu-yue-long-men-teapot-by-xiong-liang-hui">Click Here</a></button>
     </div>
 
-    <div class="otherIdeas">
-        <button class="other"><a href="otherIdeas.html">Other Ideas</a></button>
+    <div class="item-card seven">
+        <h2>Bath Tray</h2>
+        <div class="description-container">
+        <p class="description">Bamboo Bath Tray Caddy</p>
+        <p class="specs">Color: Bamboo</p>
+        <p class="price">Price: $23.99</p>
+        </div>
+        <button class="link"><a href="https://www.amazon.com/Luxury-Bathtub-Tray-Caddy-Waterproof/dp/B0BKLSN6WJ/ref=sr_1_1_sspa?crid=JF1KS7U7WOAO&dib=eyJ2IjoiMSJ9.iXX023gwgR2a3Aw7D7LnqSVZTsy-e4_3kv5FQA8t_gBwNy4YRqmZBxftC6y3WSfNud5AKaxFjHfgj6NglYKOqA9m_0xgPLb9sDWuYyZVi2S-6aq1QyXKat3-mYrW4ijv3sPfLmPSQ9jSaUDybOspX8m9vNBW0zBKiAh5ZI8XCnC1JCq2USmZczrMN2Zt2vQzJ5NS8Fl1mxNaoXM7Thq0fcVqqKiN5l2fGQLRdvFZl94w42gtxcu_jRsPUU_YKGkEcfvKqWKFMztgAWbDFBg6_un8cSUUnlPltWwT_yAtFNY.XQQO3Ps5zDd1KzxF6E5kNOf3AJWwTKSvieS1n61LtHM&dib_tag=se&keywords=bath+tray&qid=1772328345&sprefix=bath+tra%2Caps%2C126&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">Click Here</a></button>
     </div>
+
 </main>
+    <div class="otherIdeasButton">
+        <button class="otherIdeas"><a href="otherIdeas.html">Other Ideas</a></button>
+    </div>
+
 </body>
     <footer id="disclaimer">
         <p class="copywrite">&copy; 2026 My Wishlist</p>
@@ -98,6 +122,13 @@
             document.getElementById("disclaimer").style.display = "none";
             document.body.style.paddingBottom = "0"; // Remove the extra padding when the disclaimer is hidden
         });
+    </script>
+
+    <script>
+        function toggleNav() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('open');
+        }
     </script>
 
 </html>
